@@ -30,6 +30,8 @@ def download_nltk():
 
     nltk.download("punkt")
 
+    nltk.download("punkt_tab")
+
     nltk.download("stopwords")
 
 download_nltk()
