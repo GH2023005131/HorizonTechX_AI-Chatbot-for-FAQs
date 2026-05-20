@@ -1,66 +1,90 @@
-# 🤖 HorizonTechX AI – Intelligent FAQ Chatbot
+# HorizonTechX AI – Intelligent FAQ Chatbot 🤖
 
-HorizonTechX AI is a professional AI-powered FAQ chatbot developed using Python and Streamlit.  
-The project uses Natural Language Processing (NLP) techniques such as TF-IDF Vectorization, Cosine Similarity, and Fuzzy Matching to intelligently understand and answer user queries.
+HorizonTechX AI is a professional AI-powered FAQ chatbot developed using **Python** and **Streamlit**.
+The project uses **Natural Language Processing (NLP)** techniques such as TF-IDF Vectorization, Cosine Similarity, and Fuzzy Matching to intelligently understand and answer user queries.
 
-It provides a modern chatbot interface with voice interaction, authentication, downloadable chat history, and a professional UI/UX experience.
+It provides a modern chatbot interface with voice interaction, downloadable chat history, and a professional UI/UX experience.
 
 ---
 
-# 🚀 Features
+# 🚀 Live Demo
 
-- 🔐 User Login Authentication
-- 💬 Modern ChatGPT-style Chat Interface
-- 🎤 Voice Input (Speech Recognition)
-- 🔊 Voice Reply (Text-to-Speech)
-- 🧠 NLP-based FAQ Matching
-- ⚡ Fast Responses using TF-IDF & Cosine Similarity
-- 🔍 Typo Handling using RapidFuzz
-- 📥 Download Chat Feature
-- 🗑️ Clear Chat Option
-- 🌙 Professional Dark Glassmorphism UI
-- 📱 Responsive Layout
-- ☁️ Streamlit Cloud Deployable
+🔗 Add your deployed Streamlit link here after deployment.
+
+Example:
+
+```txt
+https://horizontechx-ai-chatbot-for-faqs.streamlit.app
+```
+
+---
+
+# 📌 Features
+
+* 🤖 AI FAQ Chatbot
+* 🧠 NLP-Based Question Matching
+* 🎤 Browser Voice Assistant
+* 🔊 Voice Reply Support
+* 💬 Modern ChatGPT-Style UI
+* 📥 Download Chat History
+* ⚡ Fast Response System
+* 🎨 Professional Responsive Design
+* ☁️ Streamlit Cloud Deployment
+* 📱 Cross Platform Support
 
 ---
 
 # 🛠️ Technologies Used
 
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- NLTK
-- Scikit-learn
-- RapidFuzz
-- SpeechRecognition
-- pyttsx3
+| Technology          | Purpose                   |
+| ------------------- | ------------------------- |
+| Python              | Core Programming          |
+| Streamlit           | Web Application Framework |
+| Pandas              | Data Handling             |
+| NumPy               | Numerical Operations      |
+| Scikit-learn        | TF-IDF & Similarity       |
+| NLTK                | NLP Processing            |
+| RapidFuzz           | Fuzzy String Matching     |
+| HTML/CSS/JavaScript | UI & Voice Features       |
 
 ---
 
 # 🧠 NLP Techniques Used
 
-## 1. Text Preprocessing
-- Lowercasing
-- Stopword Removal
-- Tokenization
-- Special Character Removal
+The chatbot uses multiple NLP techniques to provide intelligent responses:
 
-## 2. TF-IDF Vectorization
-Converts text into numerical vectors based on word importance.
+* Text Preprocessing
+* Tokenization
+* Stopword Removal
+* TF-IDF Vectorization
+* Cosine Similarity
+* Fuzzy Matching
 
-## 3. Cosine Similarity
-Measures similarity between user queries and FAQ questions.
+These techniques help the chatbot understand user intent and provide accurate answers even when questions are phrased differently.
 
-## 4. Fuzzy Matching
-Handles spelling mistakes and similar words using RapidFuzz.
+---
+
+# 🎤 Voice Assistant
+
+The project includes a browser-based voice assistant using:
+
+* Web Speech API
+* Speech Recognition
+* Speech Synthesis
+
+Features:
+
+* Start/Stop Voice Input
+* Real-time Speech Recognition
+* Automatic Message Sending
+* AI Voice Responses
 
 ---
 
 # 📂 Project Structure
 
-```bash
-HorizonTechX_AI/
+```txt
+HorizonTechX_AI-Chatbot-for-FAQs/
 │
 ├── .streamlit/
 │   └── config.toml
@@ -68,13 +92,8 @@ HorizonTechX_AI/
 ├── assets/
 │   └── logo.png
 │
-├── chat_history/
-│
-├── downloads/
-│
 ├── app.py
 ├── faq.csv
-├── users.json
 ├── requirements.txt
 └── README.md
 ```
@@ -86,126 +105,114 @@ HorizonTechX_AI/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/HorizonTechX-AI.git
-cd HorizonTechX-AI
+git clone https://github.com/GH2023005131/HorizonTechX_AI-Chatbot-for-FAQs.git
 ```
 
 ---
 
-## 2️⃣ Install Requirements
+## 2️⃣ Open Project Folder
+
+```bash
+cd HorizonTechX_AI-Chatbot-for-FAQs
+```
+
+---
+
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
+OR
+
+```bash
+py -m pip install -r requirements.txt
+```
+
 ---
 
-## 3️⃣ Run Project
+## 4️⃣ Run Application
 
 ```bash
 streamlit run app.py
 ```
 
----
-
-# 🔑 Login Credentials
-
-Example:
-
-```json
-{
-  "admin": "admin123"
-}
-```
-
-Stored inside:
+OR
 
 ```bash
-users.json
+py -m streamlit run app.py
 ```
-
----
-
-# 📄 FAQ Dataset
-
-The chatbot uses a custom FAQ dataset stored in:
-
-```bash
-faq.csv
-```
-
-Format:
-
-```csv
-"question","answer"
-```
-
-Example:
-
-```csv
-"what is python","Python is a high-level programming language."
-```
-
----
-
-# 🎤 Voice Features
-
-## Voice Input
-Uses Google Speech Recognition API to convert speech into text.
-
-## Voice Reply
-Uses pyttsx3 Text-to-Speech engine for AI voice responses.
 
 ---
 
 # 🌐 Deployment
 
-This project can be deployed easily using:
+This project can be deployed easily on:
 
-- Streamlit Cloud
-- Render
-- Railway
-- Hugging Face Spaces
+* Streamlit Cloud
+* Render
+* Railway
 
----
+Recommended Platform:
 
-# 📸 UI Highlights
+✅ Streamlit Cloud
 
-- Professional Dark Theme
-- Glassmorphism Design
-- ChatGPT-style Input Area
-- Floating Mic Button
-- Animated Listening Indicator
-- Responsive Sidebar
+Deployment Steps:
 
----
-
-# 🎯 Internship Task Coverage
-
-✅ Collect and preprocess FAQ data  
-✅ Similarity matching using NLP  
-✅ Generate chatbot responses  
-✅ Interactive chatbot interface  
+1. Upload project to GitHub
+2. Login to Streamlit Cloud
+3. Connect GitHub Repository
+4. Select `app.py`
+5. Deploy
 
 ---
 
-# 📈 Future Improvements
+# 🔮 Future Improvements
 
-- Multi-language Support
-- OpenAI API Integration
-- AI Summarization
-- Database Integration
-- User Chat Analytics
-- Real-time AI Responses
-
----
-
-# 👨‍💻 Developed By
-
-**Akshith Mikki**
+* OpenAI Integration
+* Multi-language Support
+* User Authentication
+* Database Storage
+* Chat Memory
+* Dark/Light Theme Toggle
+* AI Summarization
+* Admin Dashboard
+* Analytics System
 
 ---
 
-# 📜 License
+# 👨‍💻 Author
 
-This project is developed for educational and internship purposes.
+**Sai Akshith Veerabathini**
+
+GitHub:
+[GH2023005131 GitHub Profile](https://github.com/GH2023005131?utm_source=chatgpt.com)
+
+---
+
+# 📄 License
+
+This project is developed for educational, internship, and portfolio purposes.
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork the project
+📢 Share with others
+
+---
+
+# 💡 Project Highlights
+
+* Industry-level UI/UX
+* Real-time Voice Interaction
+* Intelligent NLP Matching
+* Professional Portfolio Project
+* Deployment Ready
+* Resume Ready
+* Internship Ready
